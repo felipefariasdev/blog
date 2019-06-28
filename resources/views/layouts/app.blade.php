@@ -56,7 +56,7 @@
                                    
                                     <a class="dropdown-item" href="home">{{ __('Home') }}</a>
                                     <a class="dropdown-item" href="posts">{{ __('Posts') }}</a>
-                                                
+                                    <a class="dropdown-item" href="register">{{ __('Novo Usuário') }}</a>            
                                             
                                    
                                     <a class="dropdown-item" href="{{ route('logout') }}"

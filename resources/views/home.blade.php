@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Seja bem vindo <strong>{{ Auth::user()->name }}</strong>
+                    Seja bem vindo <strong>{{ Auth::user()->name }} | Perfil {{ Auth::user()->profile_id }}</strong>
                 </div>
             </div>
         </div>

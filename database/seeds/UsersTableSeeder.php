@@ -16,6 +16,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Felipe Farias',
             'email' => '190190f@gmail.com',
             'password' => bcrypt('dprnss'),
+            'profile_id' => 1
         ]);
     }
 }
